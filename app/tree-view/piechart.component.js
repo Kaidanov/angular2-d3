@@ -15,7 +15,7 @@ var d3Shape = require("d3-shape");
 var PieComponent = (function () {
     function PieComponent() {
         this.title = 'D3.js with Angular 2!';
-        this.subtitle = 'Pie Chart';
+        this.subtitle = '';
         this.margin = { top: 20, right: 20, bottom: 30, left: 50 };
         this.width = 900 - this.margin.left - this.margin.right;
         this.height = 500 - this.margin.top - this.margin.bottom;

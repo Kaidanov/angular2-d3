@@ -18,7 +18,7 @@ import {Directory} from "./directory";
 export class PieComponent implements OnInit {
 
     title: string = 'D3.js with Angular 2!';
-    subtitle: string = 'Pie Chart';
+    subtitle: string = '';
     Stats:any[];
 
     private margin = {top: 20, right: 20, bottom: 30, left: 50};
