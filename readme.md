@@ -3,6 +3,7 @@ Work in progress
 Built hierarchy folder feature .
 Added piechart from d3 - had issues with versions and typings. - Remains to connect properly the charts to directories.
 
+![Alt text](https://github.com/Kaidanov/angular2-d3/blob/master/screenshot.png "Angular 2 - Built hierarchy with piechart from d3")
 
 1) Open a command prompt in the project's root directory (APM)
 
