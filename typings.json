@@ -1,0 +1,9 @@
+{
+  "globalDependencies": {
+    "core-js": "registry:dt/core-js#0.0.0+20160725163759",
+    "node": "registry:dt/node#6.0.0+20160831021119"
+  },
+  "dependencies": {
+    "d3": "registry:dt/d3#4.5.0+20170129183936"
+  }
+}

@@ -1,0 +1,26 @@
+<ul style="list-style: none;">
+    <li *ngFor="let dir of directories">
+        <!--{{ dir.getIcon() }}<input type="checkbox" [checked]="dir.checked" (click)="dir.check()" />-->
+        <span  (click)="dir.toggle()">
+            <i class="{{dir.getGlyphicon()}}"></i> {{dir.name}} </span>
+
+        <!--<span class="iconButton" (click)="dir.toggle()">{{dir.name}}</span>-->
+        <div *ngIf="dir.expanded">
+
+            <!--<ul>-->
+                <!--<li *ngFor="let file of dir.files">{{file}}</li>-->
+            <!--</ul>-->
+
+            <tree-view [directories]="dir.children"></tree-view>
+
+        </div>
+
+    </li>
+</ul>
+
+<pie-chart></pie-chart>
+<div id="chart">here</div>
+<!--<div>-->
+    <!--<div><nvd3 [options]="options" [data]="data"></nvd3></div>-->
+<!--</div>-->
+

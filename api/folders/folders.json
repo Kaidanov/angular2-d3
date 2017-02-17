@@ -1,0 +1,74 @@
+[
+  {
+    "type": "folder",
+    "name": "animals",
+    "path": "/animals",
+    "children": [
+    {
+        "type": "folder",
+        "name": "cat",
+        "path": "/animals/cat",
+        "children": [
+            {
+                "type": "folder",
+                "name": "images",
+                "path": "/animals/cat/images",
+                "children": [
+                    {
+                        "type": "file",
+                        "name": "cat001.jpg",
+                        "path": "/animals/cat/images/cat001.jpg"
+                    },
+                    {
+                        "type": "file",
+                        "name": "cat002.jpg",
+                        "path": "/animals/cat/images/cat002.jpg"
+                    },
+                    {
+                        "type": "file",
+                        "name": "cat003.png",
+                        "path": "/animals/cat/images/cat003.png"
+                    },
+                    {
+                        "type": "file",
+                        "name": "cat004.gif",
+                        "path": "/animals/cat/images/cat004.gif"
+                    }
+                ]
+            },
+            {
+                "type": "folder",
+                "name": "images2",
+                "path": "/animals/cat/images2",
+                "children": [
+                    {
+                        "type": "file",
+                        "name": "cat001.gif",
+                        "path": "/animals/cat/images2/cat001.gif"
+                    },
+                    {
+                        "type": "file",
+                        "name": "cat003.png",
+                        "path": "/animals/cat/images2/cat003.png"
+                    },
+                    {
+                        "type": "file",
+                        "name": "cat004.gif",
+                        "path": "/animals/cat/images2/cat004.gif"
+                    }
+                ]
+            }
+        ]
+    }
+      ]
+  },
+  {
+    "type": "folder",
+    "name": "animals2",
+    "path": "/animals2",
+    "children": [{"type": "folder",
+      "name": "cat2",
+      "path": "/animals2/cat2"
+    }]
+  }
+]
